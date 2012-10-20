@@ -20,9 +20,10 @@ module MediaCollections
     config.generators do |g|
       g.orm :mongo_mapper
       g.template_engine :haml
-      g.test_framework :rspec, :fixture => true, :views => false
+      g.test_framework :rspec, :fixture => true, :views => true
       g.fixture_replacement :factory_girl, :dir => "spec/factories"
     end
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.

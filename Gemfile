@@ -24,6 +24,7 @@ gem "bson_ext"
 gem "mongo_mapper"
 gem "haml-rails"
 gem "omniauth"
+gem "omniauth-google-oauth2", "~> 0.1.13"
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
