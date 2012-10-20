@@ -25,6 +25,7 @@ gem "mongo_mapper"
 gem "haml-rails"
 gem "omniauth"
 gem "omniauth-google-oauth2", "~> 0.1.13"
+gem "sucker", "~> 2.1.0"
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
